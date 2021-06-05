@@ -1,0 +1,111 @@
+:root {
+	--main-bg-color: #444757;
+	--scnd-bg-color: #1e1f26;
+	--phone-bg-color: #dfe4ea;
+	--phone-width: 15vw;
+	--phone-ratio: 2;
+	--phone-height: calc(var(--phone-width) * var(--phone-ratio));
+}
+
+.frame {
+	background: transparent;
+	height: 95%;
+	width: 90%;
+	min-width: 870px;
+	min-height: 870px;
+	border-radius: 10px;
+	border: solid black 4px;
+	display: flex;
+	margin: auto;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.iphone {
+	width: var(--phone-width);
+	min-width: 200px;
+	min-height: 400px;
+	height: var(--phone-height);
+	background: rgb(190, 23, 196);
+	display: block;
+	border-radius: 30px;
+	border: 5px solid var(--scnd-bg-color);
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	overflow: auto;
+}
+
+.iphone::before {
+	content: "";
+	position: absolute;
+	left: 25%;
+	top: 0;
+	width: 50%;
+	height: 3%;
+	background: var(--scnd-bg-color);
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+.botaoIphone {
+	border-radius: 50%;
+	width: 17%;
+	height: 8.5%;
+	margin-top: 180%;
+	position: absolute;
+	margin-right: -6px;
+}
+
+.botaoDentro {
+	background: rgba(16, 255, 167, 0.5);
+	border: 3px solid #000;
+	color: #000;
+	border-radius: 40px;
+	transition: 0.5s;
+	outline: none;
+}
+.botaoDentro:hover {
+	background: rgba(0, 0, 0, 0.5);
+	box-shadow: 6px 6px 6px #122;
+	color: #fff;
+}
+
+.display {
+	width: 90%;
+	height: 90%;
+}
+
+.barraProgressoContainer {
+	border-radius: 30px;
+	margin-top: 8%;
+	height: 2%;
+	width: 90%;
+}
+
+.barraProgressoContainer .barraProgresso {
+	border-radius: 30px;
+	background: rgb(190, 23, 196);
+	height: 100%;
+	width: 100%;
+}
+
+#iniciarProgresso {
+	animation: progresso 20s linear forwards;
+}
+
+@keyframes progresso {
+	0% {
+		width: 0%;
+		background: purple;
+	}
+	99% {
+		width: 100%;
+		background: purple;
+		box-shadow: 0 0 10px purple;
+	}
+	100% {
+		width: 0%;
+	}
+}
