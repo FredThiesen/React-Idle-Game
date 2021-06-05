@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/React-Idle-Game/static/css/main.9295fcdb.chunk.css",
+    "main.js": "/React-Idle-Game/static/js/main.0077bc03.chunk.js",
+    "main.js.map": "/React-Idle-Game/static/js/main.0077bc03.chunk.js.map",
+    "runtime-main.js": "/React-Idle-Game/static/js/runtime-main.baf228aa.js",
+    "runtime-main.js.map": "/React-Idle-Game/static/js/runtime-main.baf228aa.js.map",
+    "static/js/2.1171ada2.chunk.js": "/React-Idle-Game/static/js/2.1171ada2.chunk.js",
+    "static/js/2.1171ada2.chunk.js.map": "/React-Idle-Game/static/js/2.1171ada2.chunk.js.map",
+    "index.html": "/React-Idle-Game/index.html",
+    "static/css/main.9295fcdb.chunk.css.map": "/React-Idle-Game/static/css/main.9295fcdb.chunk.css.map",
+    "static/js/2.1171ada2.chunk.js.LICENSE.txt": "/React-Idle-Game/static/js/2.1171ada2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.baf228aa.js",
+    "static/js/2.1171ada2.chunk.js",
+    "static/css/main.9295fcdb.chunk.css",
+    "static/js/main.0077bc03.chunk.js"
+  ]
+}
