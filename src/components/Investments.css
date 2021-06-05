@@ -33,3 +33,16 @@
 	box-shadow: 0 0 0 1px #d1d2d4;
 	overflow: auto;
 }
+button {
+	padding: 4px;
+	font-size: x-small;
+	font-weight: bold;
+}
+.botaoInvestBuy {
+	width: 50%;
+	height: 80%;
+}
+.botaoInvestSell {
+	width: 50%;
+	height: 80%;
+}
