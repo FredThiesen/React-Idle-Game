@@ -16,8 +16,8 @@
 	border-radius: 10px;
 	display: flex;
 	margin: auto;
-	align-items: center;
-	justify-content: space-around;
+
+	justify-content: space-between;
 }
 
 .iphone {
